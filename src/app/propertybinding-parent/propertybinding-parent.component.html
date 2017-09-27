@@ -1,0 +1,5 @@
+<app-propertybinding 
+*ngFor="let serverElement of serverElements" 
+[element]="serverElement"
+[name]="heading" (onchildAdd)="onparentAdd($event)"
+></app-propertybinding>
